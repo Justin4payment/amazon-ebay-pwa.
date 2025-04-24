@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Amazon → eBay PWA</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+  <h1>Amazon → eBay Listing Tool (PWA)</h1>
+  <textarea id="asins" placeholder="ASINs (eine pro Zeile)"></textarea><br>
+  <input id="markup" type="number" value="20" placeholder="Preisaufschlag (%)"><br>
+  <button id="start">Listing starten</button>
+  <h2>Ergebnisse:</h2>
+  <ul id="results"></ul>
+  <button id="download-log">Log herunterladen</button>
+
+  <script src="static/app.js"></script>
+</body>
+</html>
