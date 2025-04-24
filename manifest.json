@@ -1,0 +1,13 @@
+{
+  "name": "Amazon zu eBay Listing",
+  "short_name": "AE Lister",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#333333",
+  "icons": [{
+    "src": "static/icon.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }]
+}
